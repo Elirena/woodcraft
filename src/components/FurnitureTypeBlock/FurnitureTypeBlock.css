@@ -1,0 +1,119 @@
+.making,.type-pic-info{
+    -webkit-box-shadow:1px 1px 3px rgba(43,43,43,.13);
+    box-shadow:1px 1px 3px rgba(43,43,43,.13)
+}
+.fur-pic,.type-pic-cont .btn{
+    position:absolute;
+    width:auto;
+    bottom:70px
+}
+
+.fur-pic{
+    display:block;
+    border:1px solid #b69b86;
+    padding:5px 15px;
+    right:50px
+}
+.btn,.btn0{
+    position:relative;
+    opacity:.999
+}
+.bottom-btn {
+    position: absolute;
+    bottom: 20px;
+}
+.text-inf{
+    text-align:justify
+}
+.r-row{
+    width:100%
+}
+.type-furniture-container{
+    background-color:#f1f1f1;
+    max-width:1200px;
+    margin:0 auto;
+    padding:50px 50px 90px
+}
+
+.tab{
+    display:inline-block;
+    padding:5px 10px;
+    position:relative;
+    z-index:5;
+    background-color:#fff;
+    float:right;
+    font-size:14px;
+    cursor: pointer;
+}
+
+.whiteborder{
+    border:1px solid #373737;
+    background:#373737;
+    color:#fff;
+    -webkit-transition:.6s ease;
+    transition:.6s ease
+}
+
+.type-furniture{
+    margin:20px 0;
+    width: 100%;
+}
+
+.type-pic-container{
+    background-color:#f1f1f1;
+    border:1px solid #373737;
+    height:450px;
+    margin-top:-20px;
+    -webkit-box-shadow:1px 1px 3px rgba(43,43,43,.13);
+    box-shadow:1px 1px 3px rgba(43,43,43,.13);
+    -webkit-transition:.6s ease;
+    transition:.6s ease;
+    text-align:center;
+    width: 50%;
+}
+
+.type-pic-container .btn{
+    display:inline-block;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    margin:0 auto!important;
+    position: relative;
+    top: 350px;
+}
+
+.pic1{
+    background:url(./img/p1.jpg) center center no-repeat;
+    -webkit-background-size:cover
+}
+
+.pic2{
+    background:url(./img/p2.jpg) center center no-repeat;
+    -webkit-background-size:cover
+}
+
+.pic3{
+    background:url(./img/p3.jpg) center center no-repeat;
+    -webkit-background-size:cover
+}
+
+.pic4{
+    background:url(./img/p4.jpg) center center no-repeat;
+    -webkit-background-size:cover
+}
+
+.type-pic-info{
+    padding:50px 70px;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    background: #ffffff;
+}
+
+.type-text{
+    font-size:14px;
+    line-height:1.5em;
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-right: 50px;
+}

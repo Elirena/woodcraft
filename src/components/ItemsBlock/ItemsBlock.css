@@ -1,0 +1,151 @@
+.making{
+    padding: 30px 5% 70px;
+}
+.calc-title {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.m-tit{
+    display:block;
+    font-size:14px;
+    margin-top:50px;
+    margin-bottom:30px;
+    text-transform:uppercase
+}
+.total-items{
+    display:inline-block;
+    border:1px solid #000;
+    width:98%;
+    min-height:250px;
+    padding:20px;
+    margin:10px
+}
+#tot-sum{
+    color:#009926;
+}
+.tot-nav{
+    max-width:400px
+}
+.total-item span{
+    display:inline-block;
+    float:right;
+    padding-left:5px
+}
+.total-item .item-count{
+    display:inline-block;
+    float:right
+}
+.total-item .item-name{
+    display:inline-block;
+    font-weight:700;
+    padding-right:10px
+}
+.item-title{
+    display:inline-block;
+    margin-bottom:10px;
+    color:#b69b86
+}
+.price{
+    display:block;
+    margin:30px;
+    text-transform:uppercase
+}
+.price span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#calc-price{
+    margin-left:10px
+}
+.ready-dis{
+    display:-webkit-inline-flex;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    margin-bottom: 30px;
+}
+.ready-dis .ready-item{
+    display:block;
+    width:auto
+}
+.calc{
+    display:block;
+    margin-top:50px
+}
+.calc-items{
+    display:-webkit-inline-flex;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    margin-bottom: 50px;
+}
+.calc-items .calc-item{
+    display:block;
+    width:100px;
+    margin-right:10px;
+    text-align:center;
+    height:auto
+}
+.calc-items .calc-item img{
+    display:block;
+    margin:5px auto
+}
+.calc-info{
+    display:block;
+    margin:10px auto;
+    font-size:11px;
+    height:20px
+}
+.pr{
+    display:block;
+    color:#b69b86;
+    font-size:16px;
+    margin-bottom:15px
+}
+.btn01{
+    display:block;
+    margin-top:50px
+}
+.delbat,.r-row{
+    display:inline-block
+}
+.delbat{
+    width:15px;
+    height:15px;
+    font-size:14px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.cacl-img{
+    height:90px
+}
+
+.black-btn:hover{
+    color:#fff
+}
+.black-btn {
+    cursor: pointer;
+    color: #b1b1b1;
+    background: #373737;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.disabled {
+    color: #fff;
+    background: #828282;
+}
+.total-btns {
+    margin-left: 25px;
+}
+.tot-right {
+    margin-top: 40px;
+}
+.btn01,.delbat,.m-tit,.tot-right {
+    text-align:center
+}

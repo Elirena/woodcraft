@@ -1,0 +1,112 @@
+.bottom,.map,.map img,.map-cont{
+    display:block
+}
+.bottom{
+    padding-top:90px;
+    background-color:#373737;
+    color:#fff
+}
+.feedback-info span b,.tit{
+    color:#b69b86
+}
+.main-contacts{
+    max-width:1000px;
+    margin:0 auto;
+    justify-content: center!important;
+}
+.map-cont{
+    margin:0 auto;
+    padding:0 50px;
+    max-width:1200px
+}
+.map{
+    background:url(./map.png) center no-repeat #373737;
+    -webkit-box-shadow:1px 1px 3px rgba(43,43,43,.13);
+    box-shadow:1px 1px 3px rgba(43,43,43,.13);
+    height:200px
+}
+.map img{
+    border:2px solid #b69b86;
+    float:right;
+    margin-top:50px;
+    margin-right:20%;
+    -webkit-border-radius:1px;
+    border-radius:1px;
+    -webkit-box-shadow:1px 1px 5px rgba(7,6,6,.63);
+    box-shadow:1px 1px 5px rgba(7,6,6,.63)
+}
+.feedback input[type=text], .feedback textarea{
+    font-size:12px;
+    font-family: Rubik, sans-serif;
+    letter-spacing: 0.1em;
+    width:250px;
+    height:25px;
+    border-top:1px solid #272727;
+    border-left:1px solid #323232;
+    border-right:1px solid #323232;
+    border-bottom:1px solid #494949;
+    -webkit-border-radius:1px;
+    border-radius:1px;
+    padding:15px 10px;
+    background-color:#323232;
+    color:#b69b86
+}
+.feedback textarea{
+    height:100px;
+    max-width:250px;
+    max-height:150px
+}
+.feedback input:focus{
+    -webkit-border-radius:1px;
+    border-radius:1px;
+    border:1px solid #b69b86
+}
+.feedback-info{
+    display:inline-block;
+    line-height:28px;
+    font-size:13px;
+}
+.feedback-info span {
+    display: inline-block;
+    padding: 0 50px;
+}
+.contacts,.footer-nav,.page-footer{
+    display:block
+}
+.page-footer{
+    padding:50px
+}
+.foot-row{
+    max-width:1200px;
+    margin:0 auto;
+    justify-content: space-around!important;
+}
+.footer-nav li{
+    list-style: none;
+    font-size:10px;
+    text-transform:uppercase;
+    margin-top:10px;
+    letter-spacing: 0.1em;
+}
+.footer-nav li a{
+    color:#fff1f8;
+    text-decoration:none;
+    letter-spacing: 0.1em;
+    word-wrap: normal;
+}
+.contacts span,.footer-nav a:hover{
+    color:#b69b86
+}
+.footer-nav ul li a,.page-footer{
+    color:#b2b2b2
+}
+.footer-logo{
+    padding-left:15px
+}
+.contacts{
+    font-size:11px;
+    line-height:24px;
+}
+.page-footer{
+    background-color:#323232
+}

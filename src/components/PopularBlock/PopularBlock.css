@@ -1,0 +1,60 @@
+/*популярное*/
+
+.popular-pics-container{
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.pop-item{
+    color:#b69b86;
+    display: inline-block;
+    cursor: pointer;
+}
+.pop-item:hover{
+    color:#e38d13
+}
+.pop-item:hover .pop-info{
+    border:1px solid #373737;
+    -webkit-transition:.6s ease;
+    transition:.6s ease
+}
+.pop-item:hover .pop-info p{
+    color:#e38d13;
+    white-space:nowrap
+}
+.pop-item:hover .hid{
+    color:#373737;
+    -webkit-transition:.6s ease;
+    transition:.6s ease
+}
+.hid{
+    display:block;
+    margin-top:5px;
+    text-transform:uppercase;
+    font-size:10px;
+    color:rgba(7,6,6,0)
+}
+.popular-pics{
+    display: -webkit-inline-box;
+    display:-webkit-inline-flex;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    text-align:center
+}
+.popular-pics div img{
+    padding:5px
+}
+.pop-info{
+    display:block;
+    padding:15px;
+    margin:10px;
+    font-size:12px;
+    border:1px solid transparent
+}
+.pop-info p{
+    color:#373737;
+    font-weight:400;
+    font-size:16px;
+    font-style:italic;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}

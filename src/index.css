@@ -1,0 +1,31 @@
+@font-face{
+  font-family:Rubik;
+  font-style:normal;
+  font-weight:300;
+  src:local('Rubik Light'),local('Rubik-Light'),url(https://fonts.gstatic.com/s/rubik/v4/w1lv2ChwM2azNxvd4if7tvesZW2xOQ-xsNqO47m55DA.ttf) format('truetype')
+}
+@font-face{
+  font-family:Rubik;
+  font-style:normal;
+  font-weight:400;
+  src:local('Rubik'),local('Rubik-Regular'),url(https://fonts.gstatic.com/s/rubik/v4/2AfMVb-218AAzRWsLqegwg.ttf) format('truetype')
+}
+@font-face{
+  font-family:Rubik;
+  font-style:normal;
+  font-weight:500;
+  src:local('Rubik Medium'),local('Rubik-Medium'),url(https://fonts.gstatic.com/s/rubik/v4/HeonTWSI86KGXtp3ufvWUfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype')
+}
+@font-face{
+  font-family:Rubik;
+  font-style:normal;
+  font-weight:700;
+  src:local('Rubik Bold'),local('Rubik-Bold'),url(https://fonts.gstatic.com/s/rubik/v4/o4CaoMI5GtiGgfunwzx_K_esZW2xOQ-xsNqO47m55DA.ttf) format('truetype')
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik,sans-serif;
+  background-color: #f1f1f1;
+}

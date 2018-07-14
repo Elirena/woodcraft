@@ -1,0 +1,95 @@
+.main-head {
+    background-color: #f1f1f1;
+}
+.top-line {
+    margin: 0 auto;
+}
+
+.page-top {
+    display: block;
+    background: url(top_pic.jpg) center no-repeat #323232;
+    min-height: 412px;
+    padding-right: -10px;
+    padding-left: -10px;
+    -webkit-box-shadow: 1px 1px 3px rgba(43,43,43,.13);
+    box-shadow: 1px 1px 3px rgba(43,43,43,.13);
+}
+
+.page-top .about {
+    max-width: 1000px;
+    width: auto;
+    line-height: 28px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 18px;
+    text-shadow: 3px 3px 15px #070606;
+    text-transform: uppercase;
+}
+
+.about {
+    padding-top: 130px;
+    text-align: center;
+}
+
+.buttons_block {
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.calculator-btn {
+    color: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px rgba(0,0,0,.3);
+    border: 1px solid #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.calculator-btn {
+    margin-left: 10px;
+    background: #373737;
+    border: 1px solid #373737;
+    color: #fff;
+    text-align: center;
+    -webkit-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.calculator-btn:hover{
+    border:1px solid #e38d13;
+    color:#e38d13
+}
+
+.catalog-btn{
+    color:#fff;
+    -webkit-box-shadow:0 1px 5px rgba(0,0,0,.3);
+    box-shadow:0 1px 5px rgba(0,0,0,.3);
+    border:1px solid #fff
+}
+.catalog-btn:hover{
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,.3),0 -2px 0 #e38d13 inset;
+    box-shadow:0 1px 1px rgba(0,0,0,.3),0 -2px 0 #e38d13 inset;
+    color:#e38d13;
+    background:#373737;
+    border:1px solid #373737
+}
+
+
+.all-btns-an, .all-btns-dis, .calculator-btn, .catalog-btn, .cat-btn1 {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.catalog-btn, .cat-btn1 {
+    -webkit-transition: all .15s linear;
+    cursor: pointer;
+    transition: all .15s linear;
+    text-align: center;
+}

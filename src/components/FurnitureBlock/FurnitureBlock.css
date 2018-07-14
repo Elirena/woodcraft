@@ -1,0 +1,150 @@
+/*мебель*/
+
+.furniture{
+    background-color:#fff;
+    padding:70px 20px 90px
+}
+.fur-1,.fur-2{
+    padding:20px
+}
+.furniture-titles {
+    padding: 30px 50px;
+}
+.furniture-1,.furniture-2{
+    padding:20px
+}
+.fur-item{
+    position:inherit;
+    display:block;
+    cursor: pointer;
+    background-color:#afd9ee;
+    height:310px
+}
+.fur-item,.furniture{
+    -webkit-box-shadow:1px 1px 3px rgba(43,43,43,.13);
+    box-shadow:1px 1px 3px rgba(43,43,43,.13)
+}
+
+.fur-item:hover{
+    -webkit-animation:z-size 5s linear infinite;
+    animation:z-size 5s linear infinite
+}
+.fur-item:hover .hid2{
+    display:block;
+    -webkit-transition:.6s ease;
+    transition:.6s ease
+}
+.fur-btn{
+    display:block;
+    width:200px;
+    margin:40px auto;
+    text-align:center
+}
+.item1{
+    background:url(./img/001.png) center no-repeat,-webkit-gradient(linear,right top,left bottom,from(#d1d1d1),to(#eee));
+    background:url(./img/001.png) center no-repeat,-webkit-linear-gradient(top right,#d1d1d1,#eee);
+    background:url(./img/001.png) center no-repeat,linear-gradient(to bottom left,#d1d1d1,#eee);
+    background-size:contain
+}
+.item2{
+    background:url(./img/004.png) center no-repeat,-webkit-gradient(linear,right top,left bottom,from(#d4d4d2),to(#9e9e9c));
+    background:url(./img/004.png) center no-repeat,-webkit-linear-gradient(top right,#d4d4d2,#9e9e9c);
+    background:url(./img/004.png) center no-repeat,linear-gradient(to bottom left,#d4d4d2,#9e9e9c);
+    background-size:contain
+}
+.item3{
+    background:url(./img/008.png) center no-repeat,-webkit-gradient(linear,right top,left bottom,from(#e9e8e4),to(#dfe0db));
+    background:url(./img/008.png) center no-repeat,-webkit-linear-gradient(top right,#e9e8e4,#dfe0db);
+    background:url(./img/008.png) center no-repeat,linear-gradient(to bottom left,#e9e8e4,#dfe0db);
+    background-size:contain
+}
+.item4{
+    background:url(./img/002.png) center no-repeat,-webkit-gradient(linear,right top,left bottom,from(#6a6762),to(#3c3733));
+    background:url(./img/002.png) center no-repeat,-webkit-linear-gradient(top right,#6a6762,#3c3733);
+    background:url(./img/002.png) center no-repeat,linear-gradient(to bottom left,#6a6762,#3c3733);
+    background-size:contain
+}
+.item5{
+    background:url(./img/005.png) center no-repeat,-webkit-gradient(linear,right top,left bottom,from(#c7c7c7),to(#b7b7b7));
+    background:url(./img/005.png) center no-repeat,-webkit-linear-gradient(top right,#c7c7c7,#b7b7b7);
+    background:url(./img/005.png) center no-repeat,linear-gradient(to bottom left,#c7c7c7,#b7b7b7);
+    background-size:contain
+}
+.item6{
+    background:url(./img/006.png) center no-repeat,-webkit-gradient(linear,right top,left bottom,from(#4c4c4a),to(#eee));
+    background:url(./img/006.png) center no-repeat,-webkit-linear-gradient(top right,#4c4c4a,#eee);
+    background:url(./img/006.png) center no-repeat,linear-gradient(to bottom left,#4c4c4a,#eee);
+    background-size:contain
+}
+.item7{
+    background:url(./img/007.png) center no-repeat,-webkit-gradient(linear,right top,left bottom,from(#747472),to(#e8e8e6));
+    background:url(./img/007.png) center no-repeat,-webkit-linear-gradient(top right,#747472,#e8e8e6);
+    background:url(./img/007.png) center no-repeat,linear-gradient(to bottom left,#747472,#e8e8e6);
+    background-size:contain
+}
+.item-info{
+    display:block;
+    position:absolute;
+    bottom:10px;
+    padding:5px 15px;
+    color: #1f1f1f;
+    font-size:12px;
+    font-family: Rubik,sans-serif;
+    line-height: 1.6em;
+}
+.item-info-title{
+    display:block;
+    color:#1f1f1f;
+    margin:35px;
+    text-transform:uppercase;
+    font-weight:500;
+    font-size:14px
+}
+.item-info-title p{
+    color:#fff;
+    font-weight:600;
+    font-size:22px;
+    margin-top: 5px;
+    text-shadow:1px 1px 3px rgba(0,0,0,.29)
+}
+.whit{
+    color:#ddd
+}
+
+
+@-webkit-keyframes z-size{
+    0%,100%{
+        background-position:0;
+        background-size:100%
+    }
+    25%,75%{
+        background-position:0;
+        background-size:120%
+    }
+    50%{
+        background-position:-50px;
+        background-size:130%
+    }
+}
+@keyframes z-size{
+    0%,100%{
+        background-position:0;
+        background-size:100%
+    }
+    25%,75%{
+        background-position:0;
+        background-size:120%
+    }
+    50%{
+        background-position:-50px;
+        background-size:130%
+    }
+}
+.big-item1{
+    -webkit-animation:z-size 5s linear infinite;
+    animation:z-size 5s linear infinite
+}
+.big-item2{
+    -webkit-animation:z-size 7s linear infinite;
+    animation:z-size 7s linear infinite
+}
