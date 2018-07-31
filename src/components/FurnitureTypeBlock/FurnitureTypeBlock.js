@@ -44,7 +44,7 @@ class FurnitureTypeBlock extends Component {
         const activeTab = this.state.activeTab;
         return (
             <div className="type-furniture-container row flex-right">
-                <div className='col-6 '>
+                <div className='col-6 tab-line'>
                     <div className={`tab ${activeTab === 'sofaType' ? 'whiteborder' : ''}`}
                          onClick={() => this.setState({activeTab: 'sofaType'})}
                     >диваны</div>

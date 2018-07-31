@@ -41,7 +41,7 @@ class FactoryBlock extends Component {
         return (
             <div className="making-cont container white_back">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-4 making-title-row">
                         <div className="title-block making-title">
                             <div className="title">Производство</div>
                             <div className="line0"/>

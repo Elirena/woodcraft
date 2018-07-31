@@ -47,7 +47,7 @@ class PopularBlock extends Component {
         return (
             <div className="popular-pics-container container">
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-3 popular-title">
                         <div className="title-block">
                             <div className="title">Популярные модели</div>
                             <div className="line0"/>

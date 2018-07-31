@@ -10,6 +10,7 @@ import {
     Switch
 } from 'react-router-dom';
 import './App.css';
+import './_media.css';
 
 class App extends Component {
   render() {

@@ -9,7 +9,7 @@ class TopMenu extends Component {
         const activeLink = window.location.pathname;
         return (
             <div className="row menu_row">
-                <div className="col-2">
+                <div className="col-2 logo">
                     <img src={logo} className="header-logo" alt="logo" width="" height="40px"/>
                 </div>
 

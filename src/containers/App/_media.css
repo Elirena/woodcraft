@@ -1,0 +1,228 @@
+@media (max-width: 1150px){
+    .about {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .popular-title .sub-title, .popular-title .line0 {
+        display: none;
+    }
+    .popular-pics, .popular-title {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .popular-title .title {
+        text-align: center;
+        margin: 30px auto;
+    }
+}
+
+
+@media (max-width: 1047px) {
+    .about {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tab-line, .type-pic-container, .type-pic-info {
+        padding-right: 0;
+        padding-left: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .title {
+        margin-top: 0;
+    }
+    .type-text {
+        margin: 40px 50px 50px
+    }
+    .bottom-btn {
+        bottom: 70px;
+    }
+    .total-btns .black-btn {
+        margin-bottom: 15px;
+    }
+    .price {
+        margin: 15px;
+    }
+    .tot-nav, .tot-right {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tot-nav {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .calc-title {
+        padding-bottom: 5px;
+    }
+    .total-items {
+        padding: 20px 50px;
+    }
+   .tot-right {
+       margin-top: 0;
+   }
+   .calc-item {
+       margin-left: 20px;
+   }
+   .price, .total-btns {
+       text-align: center;
+   }
+}
+
+
+@media (max-width: 900px) {
+    .header_menu {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .popular-pics-container {
+        display: none;
+    }
+    .item-info-title {
+        margin: 20px;
+    }
+    .furniture {
+        padding: 50px 10px 40px;
+    }
+    .contacts {
+        display: none;
+    }
+    .footer-nav {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .furniture-titles {
+        padding: 70px 20px;
+    }
+    .making-info {
+        padding: 5px 20px;
+    }
+    .type-furniture-container {
+        padding: 50px;
+    }
+    .making-title-row {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .making-pic {
+        display: none;
+    }
+    .making-description {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .title {
+        margin-top: 30px;
+    }
+    .calc-item, .ready-item{
+        display: inline-block!important;
+        margin-bottom: 40px;
+    }
+    .calc-items, .ready-dis {
+        display: inline-block;
+    }
+    .ready-dis {
+        margin-bottom: 0;
+    }
+    .logo {
+        display: none;
+    }
+    .feedback-info, .feedback {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .main-contacts, .feedback {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .feedback input, .feedback textarea {
+        margin: 10px auto;
+    }
+    .bottom {
+        padding-top: 30px;
+    }
+    .making {
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+    .tot-nav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .map-cont {
+        display: none;
+    }
+    .cat-btn1 {
+        margin-bottom: 20px;
+    }
+    .footer-nav, .header_menu  {
+        text-align: center;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .page-footer {
+        padding: 20px -40px 30px 5px;
+    }
+    .header-link {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .header_menu {
+        text-align: center;
+        padding-left: -60px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .feedback-info span {
+        padding: 0 10px;
+    }
+    .furniture-1 .col-4, .furniture-1 .col-3, .furniture-1 .col-2, .furniture-2 .col-3 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .furniture-titles {
+        padding: 20px;
+    }
+    .furniture {
+        padding-top: 0;
+    }
+    .tab {
+        font-size: 12px;
+    }
+    .type-furniture-container {
+        padding: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width:1200px){
+    .cacl-img{
+        height:90px
+    }
+}
+
+
+@media only screen and (max-width:992px){
+    .fur-item:hover{
+        -webkit-animation:none;
+        animation:none
+    }
+}
