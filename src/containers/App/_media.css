@@ -232,10 +232,10 @@
         padding-left: 0;
     }
     .about {
-        padding-top: 60px;
+        padding-top: 50px;
     }
     .buttons_block {
-        padding-top: 30px;
+        padding-top: 20px;
     }
     .calculator-btn {
         margin-top: 15px;
@@ -314,5 +314,11 @@
     }
     .calc-title {
         padding-left: 0;
+    }
+    .furniture-titles .all-btns-an {
+        display: none;
+    }
+    .furniture-titles .sub-title {
+        margin-bottom: 0;
     }
 }
