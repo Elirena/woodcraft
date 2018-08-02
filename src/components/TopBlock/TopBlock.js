@@ -21,7 +21,7 @@ class TopBlock extends Component {
                 <div className="row">
                     <div className="buttons_block col-10">
                         <div className="catalog-btn">каталог товаров</div>
-                        <Link className='calculator-btn' to="/woodcraft/calculator">Калькулятор стоимости</Link>
+                        <Link className='calculator-btn' to="/calculator">Калькулятор стоимости</Link>
                     </div>
                 </div>
             </div>
