@@ -9,14 +9,6 @@
 Внешние ссылки отключены, 
 калькулятор/
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Сделано
 
 Разработка дизайна, верстка, 
@@ -26,6 +18,7 @@ Give examples
 * REACT
 * REDUX
 * CSS
+* Webpack сборка
 
 ## Versioning
 
